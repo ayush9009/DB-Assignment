@@ -7,7 +7,7 @@
 
 
 <h2>2. How could you ensure that each product in the "Product" table has a valid category assigned to it?</h2>
-<h4>To ensure that each product in the "Product" table has a valid category assigned to it, we can enforce referential integrity through the use of a foreign key constraint. In the "Product" table, the category_id field should be set as a foreign key referencing the primary key of the "Product_Category" table (id field). This ensures that every value in the category_id column of the "Product" table corresponds to an existing id value in the "Product_Category" table.
+<h4>To ensure that each product in the "Product" table has a valid category assigned to it, we can enforce referential integrity through the use of a foreign key constraint. In the "Product" table, the category_id field should be set as a foreign key referencing the primary key of the "Product_Category" table (id field). This ensures that every value in the category_id column of the "Product" table corresponds to an existing id value in the "Product_Category" table ,means each product in the "Product" table has a valid category assigned to it.
 
 Below is the query that ensures that each product in the "Product" table has a valid category assigned to it
 
